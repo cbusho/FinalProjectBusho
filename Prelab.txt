@@ -1,0 +1,31 @@
+Final Project- Colin Busho ECE383
+
+-General Description
+	The goal of the project is to interface with the CAN Bus of my 2009 Chevrolet 
+	Cobalt. I will read in the various signals and learn how the bus sends signals to
+	control the electronics of the car. I will then spoof the signals to control the
+	features of the car myself. This will all be done using GPIO on the FPGA to control
+	features such as the windows and locks.
+  
+-Functionalities
+	-Required
+		This will be reading in the signals sent out from the CAN Bus in a
+		meaningful way (not just a stream of bits). 
+	-B Functionality
+		This will be controlling simple switch features such as the locks (locked
+		or unlocked) or the windows (up or down).
+	-A Functionality
+		This will be controlling a monitor with a range of values (RPMs or 
+		speedometer).
+
+
+-Schedule
+	-Mon 28 April- Required Functionality
+	-Fri 2 May- B Functionality
+	-Tues 6 May- A Functionality 
+
+-Initial Design
+	Use knowledge of structure of CAN message to program FPGA to accept message bits.
+
+-Preparation
+	I am prepared to begin work.
